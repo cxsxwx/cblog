@@ -1,0 +1,13 @@
+server:
+  port: 4567
+  servlet:
+    context-path: /api/v1
+spring:
+  datasource:
+    url: jdbc:mysql:///cblog
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
